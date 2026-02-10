@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to web technology class</h1>
+    
+    <script>
+        const a=function(){
+            console.log("Asynchronus task")
+        }
+        setTimeout(a,5000);
+
+        const changeText=function(){
+            document.querySelector("h1").innerText="Welcome to 3rd lecture"
+        }
+        setTimeout(changeText,5000)
+    </script>
+
+
+    <h2 >Welcome to ES6</h2>
+    <form action="test">
+        <button type="button" onclick="changeText()">MAGIC</button>
+    </form>
+    
+</body>
+</html>
