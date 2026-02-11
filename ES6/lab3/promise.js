@@ -53,7 +53,7 @@ const promiseOne=new Promise(function(resolve,reject){
         reject("something wenr wrong")
     }
     
-})
+},2000)
 promiseOne.then(function(u1){
     console.log(u1)
     return u1.username
@@ -64,3 +64,33 @@ console.log("error")
 }).finally(()=>{
     console.log("All operations executed")
 })
+
+
+
+// promise using asyn await
+
+// const promisOne=new Promise(function(resolve,reject){
+//     setTimeout(()=>{
+//         let error=true
+//         if(error){
+//         resolve({username:"ramesh",id:123})
+//     }else{
+//         reject("something wenr wrong")
+//     }
+//     },2000);
+// })
+
+// async function consumepromiseOne(){
+//     try{
+//     const response=await promisOne
+//     console.log(response)
+//     }
+//     catch(error){
+//         console.log(error)
+//     }
+// }
+
+// consumepromiseOne()
+
+
+
