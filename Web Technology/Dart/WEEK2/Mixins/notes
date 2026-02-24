@@ -1,0 +1,18 @@
+it is not a class
+reusable behavior unit 
+it is way to share a methods and properties between class similar 
+because dart not support multple inheritance
+Can not instanstiet
+
+// mixin Mixin1{
+
+// }
+
+
+// mixin Mixin2{
+    
+// }
+
+// class classname with Mixin1 , Mixin2{
+
+// }

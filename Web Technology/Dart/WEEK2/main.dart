@@ -14,10 +14,13 @@ import 'Person.dart';
 // to the file(library), not to the class 
 
 
-void main(){
-  Person p1=Person("Rudra", 21);
- p1.setCity="Ghaziabad";
- print(p1.getCity);
- p1.setBalance=-89;
- print(p1.getBalance);
-}
+// void main(){
+//   Person p1=Person("Rudra", 21);
+//  p1.setCity="Ghaziabad";
+//  print(p1.getCity);
+//  p1.setBalance=-89;
+//  print(p1.getBalance);
+// }
+
+
+// INHERITANCE
