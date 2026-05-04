@@ -8,7 +8,7 @@ void main(){
 
   //str to double
   var two=double.parse('1.1');
-  assert(two==1.1);
+  assert(two==1.2,"ATul bhadwa");
 
   // int to str
   var three=23.toString();
@@ -16,5 +16,6 @@ void main(){
 
   String fname="Rudra";
   String lname="Sharma";
+  print(fname +" "+ lname);
   print("$fname $lname");
 }

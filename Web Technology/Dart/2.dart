@@ -12,13 +12,13 @@ void main(){
   // print(b.length); //run because run time pe fixed hoga
 
   // Object Datatype
-   dynamic c="Hello";
+  Object c="Hello";
   c=10;
   print(c);
-  // print(c.length); //not run because compile time pe fix hoga
+  // print(c.length); But you cannot access methods unless the type is known.
 
 
-  var a;
+  var a;  //if var is not initialize it treat it as dynamic
   a=10;
   a="Hello";
   print(a.length);

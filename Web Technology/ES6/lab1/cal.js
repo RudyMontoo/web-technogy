@@ -3,7 +3,7 @@
 // let a = Number(prompt("Enter your num1:"));
 // let b = Number(prompt("Enter your num2:"));
 
-// let op = prompt("Enter operation:");
+// let op = prompt("Enter operation:"); 
 // console.log(calculator(a, b, op));
 // function calculator(a, b, op) {
 //     switch (op) {
