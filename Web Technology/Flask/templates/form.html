@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marks Form</title>
+</head>
+<body>
+
+    <h2>Enter Marks</h2>
+
+    <form method="POST" action="/form">
+        <label>Maths:</label>
+        <input type="text" name="maths"><br><br>
+
+        <label>Physics:</label>
+        <input type="text" name="physics"><br><br>
+
+        <label>Chemistry:</label>
+        <input type="text" name="chemistry"><br><br>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    {% if score %}
+        <h3>Average Marks: {{ score }}</h3>
+    {% endif %}
+
+</body>
+</html>
